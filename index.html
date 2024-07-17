@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Atención Médica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <h1>Simulador de Atención Médica</h1>
+
+    <div class="container">
+        <h2>Formulário </h2>
+        <form id="entryForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Ingresar la cantidad de personas que fueron al Médico:</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+            </div>
+            <div class="form-group">
+                <label for="cantidad2">Ingresar la cantidad de personas que fueron atendidas:</label>
+                <input type="number" id="cantidad2" name="cantidad2" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Agregar</button>
+            </div>
+        </form>
+
+        <form id="searchForm">
+            <h2>Verificación de registro</h2>
+            <div class="form-group">
+                <label for="buscar">Ingresar el nombre de la persona :</label>
+                <input type="text" id="buscar" name="buscar">
+            </div>
+            <div class="form-group">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
+        <div id="summary"></div>
+        <div id="results"></div>
+    </div>
+    
+    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

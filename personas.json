@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Juan Perez",
+        "edad": 30
+    },
+    {
+        "nombre": "Ana Gomez",
+        "edad": 25
+    },
+    {
+        "nombre": "Carlos Santos",
+        "edad": 44
+    },
+    {
+        "nombre": "Maria Rodriguez",
+        "edad": 35
+    },
+    {
+        "nombre": "Luis Fernandez",
+        "edad": 29
+    },
+    {
+        "nombre": "Laura Martinez",
+        "edad": 35
+    },
+    {
+        "nombre": "Miguel Torres",
+        "edad": 25
+    },
+    {
+        "nombre": "Sofia Diaz",
+        "edad": 27
+    },
+    {
+        "nombre": "David Lopez",
+        "edad": 38
+    },
+    {
+        "nombre": "Elena Gonzalez",
+        "edad": 33
+    }
+]
